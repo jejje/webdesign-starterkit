@@ -1,0 +1,28 @@
+{
+  "name": "starter-template",
+  "version": "0.0.1",
+  "description": "A HTML5 Bootstrap Template",
+  "author": "Jimmy JejjE Nelsing <jimmy.nelsing@gmail.com>",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Jimmy Nelsing"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jejje/starter-template"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7",
+    "browser-sync": "^2.18.8",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-notify": "^3.0.0",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-sass": "^3.1.0",
+    "jquery": "^3.1.1"
+  }
+}

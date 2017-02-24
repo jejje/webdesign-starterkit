@@ -1,0 +1,33 @@
+/*
+  Main SASS
+*/
+
+/*  Color Variables */
+// Utils
+$darken-by: 10%;
+// Primary - Bright Orange
+$color-primary: #ff9327;
+$color-primary-dark: darken($color-primary, $darken-by);
+// Secondary - Bright purple
+$color-secondary: #4e3f5c;
+$color-secondary-dark: darken($color-secondary, $darken-by);
+// Text
+$text: #202020; // 'Darkest Grey'
+$text-bright: #EAEAEA;
+// Backgrounds
+$background: #eaeaea;
+$background-content: #fff;
+// Footer
+$footer-primary: $color-secondary;
+$footer-secondary: lighten($footer-primary, 10%);
+
+// Base Font Size
+$font-size-base:          1.8rem !default;
+@import "partials/typography"; // Bootstrap partial to be owerwritten
+
+@import "partials/nav";
+
+@import "partials/layout";
+@import "partials/design";
+
+

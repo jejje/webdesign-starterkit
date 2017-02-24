@@ -1,0 +1,9 @@
+/*
+  Main SASS
+*/
+/*  Color Variables */
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Play:400,700);
+body {
+  font-size: 1.8rem;
+  font-family: Play, "Helvetica Neue", Helvetica, Arial; }
