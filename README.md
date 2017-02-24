@@ -1,4 +1,4 @@
-# HTML5, Bootstrap, SASS starter kit
+# Webdesign HTML5, Bootstrap, SASS starter kit
 This is a starter kit based off the standards of the web, 
 and packed with tools that make working with the Front End quick and easy.
 
@@ -30,6 +30,17 @@ preprocess the SASS and Pipe the files to ``app_dest`` for a cleaner work enviro
 * browserSync - updates browser on save
 * bootstrap - grabs from npm modules and puts them into ``app_dest``
 * bootstrap-sass - takes sass from modules and converts to css in ``app_dest`` *(only useful with direct edit in modules)*
+
+### Watch for changes
+Gulp is setup to check for changes in your SASS-files and your HTML-files and makes the changes needed and 
+updates your browser.
+
+```
+gulp watch 
+```
+
+Your site will open in your webbrowser and saved changes will update. You can also open the adress on multiple devices
+to see live changes to Desktop and Handheld devices.
 
 ## Favicons
 The Favicons are made using [http://realfavicongenerator.net/](http://realfavicongenerator.net/) 
