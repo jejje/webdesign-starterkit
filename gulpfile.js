@@ -1,7 +1,6 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass') ;
 var notify = require('gulp-notify') ;
-var bower = require('gulp-bower');
 var browserSync = require('browser-sync').create();
 
 var config = {

@@ -16,7 +16,7 @@ Clone this repository and open up the Command-line at the root of the project.
 And use npm to install the developer dependencies.
 
 ```
-    npm install
+    npm install 
 ```
 
 ### Using the Gulp File

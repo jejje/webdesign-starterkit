@@ -1,17 +1,15 @@
 {
   "name": "webdesign-starterkit",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A HTML5 Bootstrap Template",
   "author": "Jimmy JejjE Nelsing <jimmy.nelsing@gmail.com>",
   "license": "MIT",
   "contributors": [
-    {
-      "name": "Jimmy Nelsing"
-    }
+    "Jimmy Nelsing"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jejje/webdesign-starterkit"
+    "url": "git+https://github.com/jejje/webdesign-starterkit.git"
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
@@ -22,6 +20,25 @@
     "gulp-notify": "^3.0.0",
     "gulp-ruby-sass": "^2.1.1",
     "gulp-sass": "^3.1.0",
-    "jquery": "^3.1.1",
+    "jquery": "^3.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/jejje/webdesign-starterkit/issues"
+  },
+  "homepage": "https://github.com/jejje/webdesign-starterkit#readme",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "browser-sync": "^2.18.8",
+    "bootstrap": "^3.3.7",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp": "^3.9.1",
+    "jquery": "^3.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
